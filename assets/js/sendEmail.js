@@ -12,5 +12,9 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
+    alert("Your request has been sent!");
+    document.getElementById("fullname").value = "";
+    document.getElementById("emailaddress").value = "";
+    document.getElementById("projectsummary").value = "";
     return false;  // To block from loading a new page
 }
