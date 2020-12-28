@@ -13,9 +13,16 @@
 .ui-menu-color-contact{
     background-color: #3498db;
 }
+.ui-menu-color-interests{
+    background-color: #FF0000;
+}
+.ui-menu-color-github{
+    background-color: #6a0dad;
+}
 .ui-menu-color-download{
     background-color: #525252;
 }
+
 .bg-color-three-reasons{
     background: #fff;
 }
